@@ -21,10 +21,10 @@ body {
 }
 .display-1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 4.25rem;
+  font-size: 4.3rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.8rem;
+  font-size: 6.88rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
@@ -49,10 +49,10 @@ body {
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 1.15rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.84rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -61,9 +61,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.4rem;
-    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.44rem;
+    font-size: calc( 2.155rem + (4.3 - 2.155) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (2.155rem + (4.3 - 2.155) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.4rem;
@@ -659,13 +659,13 @@ a:hover {
   box-shadow: none;
   color: #565656;
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 1.15rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 1.84rem;
 }
 .form-control,
 .form-control:focus {
@@ -2834,8 +2834,23 @@ body {
     width: 100% !important;
   }
 }
+.cid-rnkhcQcc96 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-rnkhcQcc96 .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rnkhcQcc96 H2 {
+  color: #188308;
+  text-align: center;
+}
+.cid-rnkhcQcc96 B {
+  color: #188308;
+}
 .cid-rkqJbeSZjP {
-  padding-top: 30px;
+  padding-top: 0px;
   padding-bottom: 30px;
   background-color: #ffffff;
 }
@@ -2870,6 +2885,20 @@ body {
 .cid-rkqJbeSZjP .mbr-text,
 .cid-rkqJbeSZjP .mbr-section-btn I {
   color: #2e2e2e;
+}
+.cid-rnkdZUh0ac {
+  background: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 45px;
+  background: linear-gradient(0deg, #ffffff, #ffffff);
+}
+.cid-rnkdZUh0ac .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-rnkdZUh0ac .video-block {
+    width: 100% !important;
+  }
 }
 .cid-rhWRleiXyf {
   padding-top: 15px;
